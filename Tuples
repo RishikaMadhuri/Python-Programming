@@ -1,0 +1,42 @@
+#Add an item
+
+l=[4,6,2,8,3,1]
+a=tuple(l)
+t=(9,)
+t1=a+t
+print(a)
+print(t1)
+a=a[:5]+(15,20,25,)+a[0:5]
+print(a)
+append=a+(30,)
+print(append)
+
+
+#Length of a tuple
+
+str=input()
+str=tuple(str)
+print(str)
+print(len(str))
+
+
+#Reverse a Tuple
+
+str=input()
+str=tuple(str)
+print(str[::-1])
+
+
+#Repeated element in a tuple
+
+n=int(input())
+t=(2,4,5,6,2,3,4,4,7)
+print(t)
+l=len(t)
+count=0
+for i in range(0,l):
+    if n==t[i]:
+        count=count+1
+print(count)
+
+
